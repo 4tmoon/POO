@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Distancia do p2 até a origem: " + df.format(p2.calcularDistanciaOrigem()));
 
         // impressão do ponto mais próximo da origem
-        Ponto aux = p1.maisProximoDaOrigem(p1, p2);
+        Ponto aux = Ponto.maisProximoDaOrigem(p1, p2);
         System.out.println("\nPonto mais próximo: " + aux.formatarPonto());
     }
 }
